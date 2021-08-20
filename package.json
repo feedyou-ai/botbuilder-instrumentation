@@ -1,17 +1,21 @@
 {
   "name": "botbuilder-instrumentation",
-  "version": "1.1.18",
-  "description": "",
+  "version": "1.1.18-1",
+  "description": "Forked from https://github.com/Azure/botbuilder-instrumentation",
   "main": "dist/main.js",
   "scripts": {
     "watch": "tsc -w -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feedyou-ai/botbuilder-instrumentation"
+  },
+  "author": "Me",
   "license": "ISC",
   "dependencies": {
     "applicationinsights": "^0.20.1",
-    "botbuilder": "3.7",
+    "botbuilder": "github:feedyou-ai/botbuilder#main",
     "lodash": "^4.17.2",
     "request": "^2.79.0"
   },
